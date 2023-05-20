@@ -27,7 +27,6 @@ class Api::V1::UsersController < Api::V1::ApplicationController
     end
 
     def current
-        pp User.all 
         currentUser = User.find_by(uid: params[:uid])
         if currentUser
             render status: 200 , json:  currentUser
