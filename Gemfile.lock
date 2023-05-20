@@ -206,6 +206,7 @@ DEPENDENCIES
   debug
   factory_bot_rails
   firebase-auth-rails
+  firebase_id_token
   mysql2 (~> 0.5)
   pg (~> 1.4)
   puma (~> 5.0)

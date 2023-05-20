@@ -40,7 +40,7 @@ gem "bootsnap", require: false
 
  gem "firebase-auth-rails"
 
- gem 'firebase_id_token', '~> 3.0.0'
+ gem 'firebase_id_token'
 
  gem 'active_model_serializers'
 
