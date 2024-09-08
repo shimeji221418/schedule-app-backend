@@ -8,9 +8,3 @@
 
 # Team.create!(name: "A")
 
-teams = ['A', 'B', 'C']
-teams.each do |team_name|
-  Team.find_or_create_by!(name: team_name)
-end
-
-puts "初期チームデータが作成されました。"
